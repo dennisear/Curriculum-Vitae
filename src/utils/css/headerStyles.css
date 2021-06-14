@@ -5,6 +5,7 @@
 
 .allHeader{
     margin-top: 1%;
+    margin-bottom: 1%;
     display: flex;
 }
 
@@ -15,6 +16,42 @@
     width: 76%;
     position: absolute;
 }
+
+
+/*.modal-contenido{
+    background-color:aqua;
+    width:300px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+  }
+  .modal{
+    background-color: rgba(0,0,0,.8);
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+  }
+  #miModal:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+  
+  
+                      <a href="#miModal">Abrir Modal</a>
+                        <div id="miModal" className="modal">
+                        <div className="modal-contenido">
+                            <a href="#">X</a>
+                            <h2>Mi primer Modal</h2>
+                            <p>Este es mi primera ventana modal sin utilizar JavaScript.</p>
+                        </div>  
+                        </div>  */
+
+
+
 
 
 
@@ -74,3 +111,45 @@ h2{
     margin-top: 3%;
     align-items: center;
 }
+
+
+
+/*import React from 'react' // importar SIEMPRE react //
+import '../utils/css/headerAStyles.css'
+
+const HeaderA = () => {
+    return (
+        <div className="allHeader">
+            <div className="containerHeader">
+                <div className="titleHeader">
+                    <h1>Dennis</h1>
+                    <h2>Arango</h2>
+                </div>
+                <div className="subtitleHeader">
+                    <h3>Desarrolladora Web</h3>
+                </div>
+            </div>
+       </div>
+    )
+}*/
+
+/**{
+    margin: 0;
+    padding: 0;
+}
+
+.allHeader{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+}
+
+.containerHeader{
+    padding-left: 7%;
+    background: hsl(175, 100%, 38%);
+    height: 300px;
+    width: 76%;
+    position: absolute;
+}
+
+*/

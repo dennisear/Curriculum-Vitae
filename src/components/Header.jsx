@@ -26,7 +26,9 @@ const Header = () => {
             </div>
             <div className="Circle">
                 <div className="photo">
-                    <h1>hola</h1>
+                    <div>
+
+                   </div>
                 </div>
             </div>
         </div>
