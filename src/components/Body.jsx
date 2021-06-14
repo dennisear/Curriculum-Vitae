@@ -4,6 +4,18 @@ import FormAcadem from '../utils/images/FormAcadem.png'
 import Languages from '../utils/images/Languages.png'
 import Software from '../utils/images/software.png'
 import {Link} from 'react-router-dom'
+import b from '../utils/images/b.png'
+import c from '../utils/images/c.png'
+import f from '../utils/images/f.png'
+import fi from '../utils/images/fi.png'
+import g from '../utils/images/g.png'
+import gh from '../utils/images/gh.png'
+import ghr from '../utils/images/ghr.png'
+import h from '../utils/images/h.png'
+import hcb from '../utils/images/hcb.png'
+import jg from '../utils/images/jg.png'
+import js from '../utils/images/js.png'
+import r from '../utils/images/r.png'
 
 
 const Body = () => {
@@ -97,36 +109,36 @@ const Body = () => {
                     <div className="Line"> <hr/> </div>            
                     <div class="progressbars">
                         <div class="containerpb">
-                            <img src="../images/hcb.png" alt="Barra de progreso"/>
-                            <img src="../images/h.png" className="top" alt="html"/>
+                            <img src={hcb} alt="Barra de progreso"/> 
+                            <img src={h} className="top" alt="html"/> 
                         </div>
                         <div class="containerpb">
-                            <img src="../utils/images/hcb.png" alt="Barra de progreso"/>
-                            <img className="top" src="../utils/images/c.png" alt="css"/>
+                            <img src={hcb} alt="Barra de progreso"/> 
+                            <img src={c} className="top" alt="css"/> 
                         </div>
                         <div class="containerpb">
-                            <img src="../utils/images/jg.png" alt="Barra de progreso"/>
-                            <img className="top" src="../utils/images/js.png" alt="js"/>
+                            <img src={jg} alt="Barra de progreso"/> 
+                            <img src={js} className="top" alt="js"/> 
                         </div>
                         <div class="containerpb">
-                            <img src="../utils/images/ghr.png" alt="Barra de progreso"/>
-                            <img className="top" src="../utils/images/r.png" alt="react"/>
+                            <img src={ghr} alt="Barra de progreso"/> 
+                            <img src={r} className="top" alt="react"/> 
                         </div>
                         <div class="containerpb">
-                            <img src="../utils/images/jg.png" alt="Barra de progreso"/>
-                            <img className="top" src="../utils/images/g.png" alt="git"/>
+                            <img src={jg} alt="Barra de progreso"/> 
+                            <img src={g} className="top" alt="git"/> 
                         </div>
                         <div className="containerpb">
-                            <img src="../utils/images/ghr.png" alt="Barra de progreso"/>
-                            <img className="top" src="../utils/images/gh.png" alt="github"/>
+                            <img src={ghr} alt="Barra de progreso"/> 
+                            <img src={gh} className="top" alt="github"/> 
                         </div>
                         <div class="containerpb">
-                            <img src="../utils/images/f.png" alt="Barra de progreso"/>
-                            <img className="top" src="../utils/images/fi.png" alt="figma"/>
+                            <img src={f} alt="Barra de progreso"/> 
+                            <img src={fi} className="top" alt="figma"/> 
                         </div>
                         <div class="containerpb">
-                            <img src="../utils/images/hcb.png" alt="Barra de progreso"/>
-                            <img className="top" src="../utils/images/b.png" alt="bootstrap"/>
+                            <img src={hcb} alt="Barra de progreso"/> 
+                            <img src={b} className="top" alt="bootstrap"/> 
                         </div>
                     </div>
                 </div>                

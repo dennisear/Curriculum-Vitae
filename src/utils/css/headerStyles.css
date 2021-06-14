@@ -1,21 +1,43 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.allHeader{
-    margin-top: 1%;
-    margin-bottom: 1%;
-    display: flex;
-}
-
 .containerHeader{
     padding-left: 7%;
-    background: hsl(175, 100%, 38%);
     height: 300px;
     width: 76%;
-    position: absolute;
 }
+.photo{
+    width: 230px;
+    height: 200px;
+    border: 50px solid #BFC1C6;
+    background: #BFC1C6;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    position: relative;
+    left: 280%;
+}
+.Redes{
+    display: flex;
+}
+.Icons{
+    background: #BFC1C6;
+    border-radius: 20%;
+    flex-direction: column;
+    width: 80px;
+    margin-top: 1%;
+}
+.Icons img{
+    width: 60px;
+    height: 60px;
+}
+.Users{
+    color: #FFFAFA;
+    font-size: 20px;
+    margin-top: 3%;
+    align-items: center;
+}
+
+
+
+
 
 
 /*.modal-contenido{
@@ -54,102 +76,3 @@
 
 
 
-
-.photo{
-    width: 230px;
-    height: 200px;
-    border: 50px solid #BFC1C6;
-    background: #BFC1C6;
-    -moz-border-radius: 100%;
-    -webkit-border-radius: 100%;
-    border-radius: 100%;
-    position: relative;
-    left: 280%;
-}
-
-.titleHeader{
-    display: flex;
-}
-
-h1{
-    color: #FFFAFA;
-    font-size: 60px;
-}
-
-h2{
-    color: #58575D;
-    font-size: 55px;
-}
-
-.subtitleHeader{
-    color: #FFFAFA;
-    font-size: 25px;
-    text-align: left;
-    margin-top: 1%;
-
-}
-
-.Redes{
-    display: flex;
-}
-
-.Icons{
-    background: #BFC1C6;
-    border-radius: 20%;
-    flex-direction: column;
-    width: 80px;
-    margin-top: 1%;
-}
-.Icons img{
-    width: 60px;
-    height: 60px;
-}
-
-.Users{
-    color: #FFFAFA;
-    font-size: 20px;
-    margin-top: 3%;
-    align-items: center;
-}
-
-
-
-/*import React from 'react' // importar SIEMPRE react //
-import '../utils/css/headerAStyles.css'
-
-const HeaderA = () => {
-    return (
-        <div className="allHeader">
-            <div className="containerHeader">
-                <div className="titleHeader">
-                    <h1>Dennis</h1>
-                    <h2>Arango</h2>
-                </div>
-                <div className="subtitleHeader">
-                    <h3>Desarrolladora Web</h3>
-                </div>
-            </div>
-       </div>
-    )
-}*/
-
-/**{
-    margin: 0;
-    padding: 0;
-}
-
-.allHeader{
-    margin-top: 1%;
-    margin-bottom: 1%;
-    display: flex;
-}
-
-.containerHeader{
-    padding-left: 7%;
-    background: hsl(175, 100%, 38%);
-    height: 300px;
-    width: 76%;
-    position: absolute;
-}
-
-*/

@@ -9,7 +9,7 @@
 }
 
 .Title{
-    padding: 3% 3% 4%;
+    padding: 7% 9% 4%;
     display: flex;
     color: #00C0B1;
     justify-content: center;
@@ -221,16 +221,15 @@ ul li:last-of-type {
 .containerpb {
 position: relative;
 height: 50px;
-width: 150px;
-margin: 50px 20px;
-padding-left: 30px;
-left: 50%;
+width: 160px;
+margin: 16px 120px;
 }
+
 .containerpb img {
 position: absolute;
 left: 0;
 transition: opacity 1s ease-in-out;
-width: 150px;
+width: 160px;
 height: 50px;
 border-radius: 5px 25px 25px 5px;
 }

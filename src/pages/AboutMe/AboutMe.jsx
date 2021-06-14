@@ -1,10 +1,10 @@
 import React from "react"
-import {Header} from "../../components"
+import {HeadAm} from "../../components"
 
 const AboutMe = () =>{
 	return(
 	<>
-	  <Header/>
+	  <HeadAm/>
 	</>
 	)
 }
