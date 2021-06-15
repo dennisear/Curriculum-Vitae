@@ -2,6 +2,8 @@ import React from 'react' // importar SIEMPRE react //
 import '../utils/css/headerStyles.css'
 import Git from '../utils/images/git.png'
 import Linkedin from '../utils/images/linkedin.png'
+import Profile from '../utils/images/profile.PNG'
+import Modal from '../utils/images/modal.jpg'
 import {Link} from 'react-router-dom'
 
 const Header = () => {
@@ -30,12 +32,8 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div className="Circle">
-                <div className="photo">
-                    <div>
-
-                   </div>
-                </div>
+            <div className="Photo">
+                <img src={Profile} alt="Foto"/>
             </div>
         </div>
     )

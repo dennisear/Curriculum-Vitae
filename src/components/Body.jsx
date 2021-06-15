@@ -94,6 +94,9 @@ const Body = () => {
                 </div>
             </div>
             <div className="SecondColumn">
+                <Link to="/">
+                    <button className="Button">HOME</button>
+                </Link>  
                 <Link to="/AboutMe">
                  <button className="Button">SOBRE MÍ</button>
                 </Link>

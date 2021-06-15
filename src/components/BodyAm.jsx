@@ -32,9 +32,13 @@ const BodyAm = () => {
             </div>
             <div className="leftColumn">
                 <div className="CButton">
-                    <Link to="/">
+                   <Link to="/">
+                     <button className="ButtonC">HOME</button>
+                    </Link>                    
+                    <Link to="/Home">
                      <button className="ButtonC">FORMACIÓN ACADÉMICA</button>
                     </Link>
+
                 </div>
                 <div className="Profile">
                     <div className="TitleProf">

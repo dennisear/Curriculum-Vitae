@@ -7,8 +7,8 @@
     font-size: 30px;
     color: #FFFAFA;  
 }
-.photo{
-    width: 230px;
+.Photo{
+    width: 220px;
     height: 200px;
     border: 50px solid #BFC1C6;
     background: #BFC1C6;
@@ -16,8 +16,19 @@
     -webkit-border-radius: 100%;
     border-radius: 100%;
     position: relative;
-    left: 280%;
+    left: 70%;
 }
+
+.Photo img{
+    width: 290px;
+    height: 290px;
+    position: relative;
+    border-radius: 200px;
+    right: 20%;
+    bottom: 20%;
+}
+
+
 .Redes{
     display: flex;
 }
