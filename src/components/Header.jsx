@@ -2,6 +2,8 @@ import React from 'react' // importar SIEMPRE react //
 import '../utils/css/headerStyles.css'
 import Git from '../utils/images/git.png'
 import Linkedin from '../utils/images/linkedin.png'
+import {Link} from 'react-router-dom'
+
 const Header = () => {
     return (
         <div className="allHeader">
@@ -19,8 +21,12 @@ const Header = () => {
                         <img src={Linkedin} alt="Icono Linkedin"></img>
                     </div>
                     <div className="Users">
-                        <h3>@UserGitHub</h3>
-                        <h3>@UserLinkedin</h3>
+                        <Link to='https://github.com/dennisear/'>
+                        <button type="button" className="ButtonH"><h3>@dennisear</h3></button>
+                        </Link> 
+                        <Link to='https://www.linkedin.com/in/dennis-arango/'>
+                        <button type="button" className="ButtonH"><h3>@dennis-arango</h3></button>
+                        </Link>  
                     </div>
                 </div>
             </div>
@@ -32,7 +38,6 @@ const Header = () => {
                 </div>
             </div>
         </div>
-
     )
 }
 export default Header

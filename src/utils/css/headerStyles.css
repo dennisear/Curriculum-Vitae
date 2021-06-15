@@ -2,6 +2,10 @@
     padding-left: 7%;
     height: 300px;
     width: 76%;
+    background: hsl(175, 100%, 38%);
+    position: absolute;
+    font-size: 30px;
+    color: #FFFAFA;  
 }
 .photo{
     width: 230px;
@@ -34,45 +38,3 @@
     margin-top: 3%;
     align-items: center;
 }
-
-
-
-
-
-
-/*.modal-contenido{
-    background-color:aqua;
-    width:300px;
-    padding: 10px 20px;
-    margin: 20% auto;
-    position: relative;
-  }
-  .modal{
-    background-color: rgba(0,0,0,.8);
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;
-    opacity:0;
-    pointer-events:none;
-    transition: all 1s;
-  }
-  #miModal:target{
-    opacity:1;
-    pointer-events:auto;
-  }
-  
-  
-                      <a href="#miModal">Abrir Modal</a>
-                        <div id="miModal" className="modal">
-                        <div className="modal-contenido">
-                            <a href="#">X</a>
-                            <h2>Mi primer Modal</h2>
-                            <p>Este es mi primera ventana modal sin utilizar JavaScript.</p>
-                        </div>  
-                        </div>  */
-
-
-
-
-

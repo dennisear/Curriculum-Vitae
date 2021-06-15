@@ -1,5 +1,16 @@
-.containerHeader{
+.containerHead{
     height: auto;
     width: 100%;
+    background: hsl(175, 100%, 38%);
+    position: absolute;
+    font-size: 30px;
+}
+
+.titleHead{
+    display: flex;
     justify-content: center;
+}
+.subtitleHead{
+    justify-content: center;
+    color: #FFFAFA;  
 }

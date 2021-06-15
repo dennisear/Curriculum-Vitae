@@ -1,0 +1,153 @@
+.allBodyAm{
+    margin-top: 10%;
+    display:flex
+}
+.rightColumn{
+    width: 20%;
+    border-right: 3px solid#00C0B1;
+    flex-direction: column;
+}
+.rightColumn img{
+    width: 250px;
+    height: 250px;
+}
+.SocialMedia{
+    justify-content: center;
+    margin-top: 5%;
+    width: 100%;
+}
+
+
+.CButton{
+    margin: 5% 5% 5% 5%;
+    justify-content: center;
+    border-bottom: 3px solid #00C0B1 ;
+    padding-bottom: 3%;
+}
+.leftColumn{
+    width: 76%;
+    justify-content: center;
+}
+
+.ButtonC{
+    background: #58575D; 
+    border-radius: 25px;
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    color: #00C0B1;
+}
+
+.TitleProf{
+    background: #BFC1C6;
+    border-radius: 30px;
+    width: 153px;
+    height: 32px;
+    margin-left: 4%;
+}
+.TitleProf p{
+    color: #00C0B1;
+    font-size: 20px;
+    text-align: center;
+}
+.InfoProf{
+    background: #00C0B1;
+    width: 93%;
+    margin-left: 4%;
+}
+.InfoProf p{
+    color: #FFFAFA;
+    font-size: 20px;
+    text-align: center;
+    padding: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Modals{
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 4%;
+}
+
+
+
+.modal-contenido{
+    background: #FFFAFA;
+    border: 5px double #58575D; 
+    width: 60%;
+    padding: 10px 20px;
+    margin: 20% auto;
+}
+
+.modal{
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+    position: absolute;
+}
+#miModal1:target{
+    opacity:1;
+    pointer-events:auto;
+    text-align: center;
+}
+#miModal2:target{
+    opacity:1;
+    pointer-events:auto;
+    text-align: center;
+}
+#miModal3:target{
+    opacity:1;
+    pointer-events:auto;
+    text-align: center;
+}
+#miModal4:target{
+    opacity:1;
+    pointer-events:auto;
+    text-align: center;
+}
+#miModal5:target{
+    opacity:1;
+    pointer-events:auto;
+    text-align: center;
+}
+#miModal6:target{
+    opacity:1;
+    pointer-events:auto;
+}
+
+.Modals a{
+    background: #00C0B1;
+    color: #FFFAFA;
+    padding: 1%;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.Foot{
+ background: #00C0B1;
+}
+
+.modal-contenido p{
+     color: #58575D;
+}

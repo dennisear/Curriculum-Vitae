@@ -94,11 +94,9 @@ const Body = () => {
                 </div>
             </div>
             <div className="SecondColumn">
-                <div className="ContainerBotones">
-                    <Link to="/AboutMe">
-                        <button className="Button">SOBRE MÍ</button>
-                    </Link>
-                </div>
+                <Link to="/AboutMe">
+                 <button className="Button">SOBRE MÍ</button>
+                </Link>
                 <div className="Title">
                     <div className="IconT">
                         <img src={Software} alt="Icono manejo de herramientas"></img>                   
