@@ -16,6 +16,8 @@ import hcb from '../utils/images/hcb.png'
 import jg from '../utils/images/jg.png'
 import js from '../utils/images/js.png'
 import r from '../utils/images/r.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHome} from '@fortawesome/free-solid-svg-icons'
 
 
 const Body = () => {
@@ -73,7 +75,7 @@ const Body = () => {
                     </div>  
                     <div className="Languages">
                         <div className="IconL">
-                            <img src={Languages} alt="Icono idiomas"></img>                    
+                          <img src={Languages} alt="Icono idiomas"></img>                    
                         </div>
                         <p style={{color: '#58575D'}}><h3>IDIOMAS</h3></p>
                         <ul>
@@ -94,11 +96,11 @@ const Body = () => {
                 </div>
             </div>
             <div className="SecondColumn">
-                <Link to="/">
-                    <button className="Button">HOME</button>
+                <Link to="/HeaderM">
+                  <a href className="Button"><FontAwesomeIcon icon={faHome}/></a>
                 </Link>  
                 <Link to="/AboutMe">
-                 <button className="Button">SOBRE MÍ</button>
+                  <button type="button" className="Button">Sobre mí</button>
                 </Link>
                 <div className="Title">
                     <div className="IconT">

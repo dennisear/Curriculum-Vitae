@@ -1,9 +1,12 @@
+
+/*Styles of the header of the page "Formación académica"*/
+
 .containerHeader{
     padding-left: 7%;
     height: 300px;
     width: 76%;
     background: hsl(175, 100%, 38%);
-    position: absolute;
+    position: absolute; /*Its position is assigned regardless of the position of the other elements.*/
     font-size: 30px;
     color: #FFFAFA;  
 }
@@ -18,17 +21,14 @@
     position: relative;
     left: 70%;
 }
-
 .Photo img{
-    width: 290px;
-    height: 290px;
-    position: relative;
+    width: 290px; /*Size*/
+    height: 290px; /*Size*/
+    position: relative; /*The position of the element depends on where it is located*/
     border-radius: 200px;
     right: 20%;
     bottom: 20%;
 }
-
-
 .Redes{
     display: flex;
 }
@@ -48,4 +48,54 @@
     font-size: 20px;
     margin-top: 3%;
     align-items: center;
+}
+
+
+/*Responsive Design*/
+@media only screen and (min-width:340px) and (max-width:768px){
+    .containerHeader{
+        width: 90%;
+    }
+    .Photo{
+        width: 180px;
+        height: 180px;
+    }
+    .Photo img{
+        width: 240px;
+        height: 250px;
+    }
+    .Icons{
+        width: 60px;
+    }
+    .Icons img{
+        width: 40px;
+        height: 50px;
+    }
+    .Users{
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .containerHeader{
+        width: 80%;
+        height: 330px;
+    }
+    .Photo{
+        width: 220px;
+        height: 220px;
+    }
+    .Photo img{
+        width: 290px;
+        height: 300px;
+    }
+    .Icons{
+        width: 70px;
+    }
+    .Icons img{
+        width: 60px;
+        height: 70px;
+    }
+    .Users{
+        font-size: 25px;
+    }
 }

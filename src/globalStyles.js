@@ -73,13 +73,10 @@ h2{
 
 .Button{
     background: #58575D; 
-    border-radius: 25px;
+    border-radius:30px;
     font-size: 20px;
-    width: auto;
-    height: auto;
-    padding: 3% 3% 3% 3%;
+    padding: 2%;
     color: #00C0B1;
-    border-color: #58575D;
 }
 
 .ButtonH{

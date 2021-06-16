@@ -3,6 +3,8 @@ import '../utils/css/bodyAmStyles.css'
 import Contacto from '../utils/images/contacto.png'
 import Logo from '../utils/images/logo.png'
 import {Link} from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHome} from '@fortawesome/free-solid-svg-icons'
 
 const BodyAm = () => {
     return (
@@ -32,11 +34,11 @@ const BodyAm = () => {
             </div>
             <div className="leftColumn">
                 <div className="CButton">
-                   <Link to="/">
-                     <button className="ButtonC">HOME</button>
+                    <Link to="/HeaderM">
+                        <a href className="Button"><FontAwesomeIcon icon={faHome}/></a>
                     </Link>                    
                     <Link to="/Home">
-                     <button className="ButtonC">FORMACIÓN ACADÉMICA</button>
+                     <button className="Button">Formación académica</button>
                     </Link>
 
                 </div>

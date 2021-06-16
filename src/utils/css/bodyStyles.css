@@ -118,7 +118,7 @@ ul li input[type="checkbox"]:checked~i::after{
 ul li i::before,ul li i::after{ /*Estilos icon*/
     content: "";
     position: absolute;
-    background: #333;
+    background: #FFFAFA;
     width: 3px;
     height: 9px;
 }

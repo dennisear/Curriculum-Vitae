@@ -17,6 +17,10 @@ const HeaderM = () => {
                 <Link to='AboutMe/'>
                     <button type="button" id="boton" className="grow_spin">Sobre mí</button>
                 </Link>
+                <Link to="BodyM/">
+                    <button type="button" id="boton" className="grow_spin">Conoce mi trabajo</button>
+               </Link>
+
             </div>
             <div className="Banner">
                <img src={Banner} alt="Banner"></img>
