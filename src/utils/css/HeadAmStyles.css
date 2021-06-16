@@ -1,3 +1,5 @@
+
+/*Head Styles*/
 .containerHead{
     height: auto;
     width: 100%;
@@ -5,7 +7,6 @@
     position: absolute;
     font-size: 30px;
 }
-
 .titleHead{
     display: flex;
     justify-content: center;
@@ -13,4 +14,17 @@
 .subtitleHead{
     justify-content: center;
     color: #FFFAFA;  
+}
+
+
+/*Responsive Design*/
+@media only screen and (min-width:340px) and (max-width:768px){
+    .containerHead{
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .containerHead{
+        font-size: 25px;
+    }
 }

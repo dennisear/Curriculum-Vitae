@@ -1,22 +1,22 @@
-import React from 'react' // importar SIEMPRE react //
-import '../utils/css/bodyStyles.css'
-import FormAcadem from '../utils/images/FormAcadem.png'
-import Languages from '../utils/images/Languages.png'
-import Software from '../utils/images/software.png'
-import {Link} from 'react-router-dom'
-import b from '../utils/images/b.png'
-import c from '../utils/images/c.png'
-import f from '../utils/images/f.png'
-import fi from '../utils/images/fi.png'
-import g from '../utils/images/g.png'
-import gh from '../utils/images/gh.png'
-import ghr from '../utils/images/ghr.png'
-import h from '../utils/images/h.png'
-import hcb from '../utils/images/hcb.png'
-import jg from '../utils/images/jg.png'
-import js from '../utils/images/js.png'
-import r from '../utils/images/r.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React from 'react' // import ALWAYS react //
+import '../utils/css/bodyStyles.css' // Styles //
+import FormAcadem from '../utils/images/FormAcadem.png' //Icon //
+import Languages from '../utils/images/Languages.png' //Icon //
+import Software from '../utils/images/software.png' //Icon //
+import {Link} from 'react-router-dom' // Declaration //
+import b from '../utils/images/b.png' // Technology //
+import c from '../utils/images/c.png' // Technology //
+import f from '../utils/images/f.png' // Technology //
+import fi from '../utils/images/fi.png' // Technology //
+import g from '../utils/images/g.png' // Technology //
+import gh from '../utils/images/gh.png' // Technology //
+import ghr from '../utils/images/ghr.png' // Progress bar //
+import h from '../utils/images/h.png' // Technology //
+import hcb from '../utils/images/hcb.png' // Progress bar //
+import jg from '../utils/images/jg.png' // Progress bar //
+import js from '../utils/images/js.png' // Progress bar //
+import r from '../utils/images/r.png' // Technology //
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' // Icon //
 import { faHome} from '@fortawesome/free-solid-svg-icons'
 
 
@@ -97,10 +97,10 @@ const Body = () => {
             </div>
             <div className="SecondColumn">
                 <Link to="/HeaderM">
-                  <a href className="Button"><FontAwesomeIcon icon={faHome}/></a>
+                  <a href className="Button"><FontAwesomeIcon icon={faHome}/></a> {/*button that directs me to home*/}
                 </Link>  
                 <Link to="/AboutMe">
-                  <button type="button" className="Button">Sobre mí</button>
+                  <button type="button" className="Button">Sobre mí</button> {/*button that directs me to page about me*/}
                 </Link>
                 <div className="Title">
                     <div className="IconT">

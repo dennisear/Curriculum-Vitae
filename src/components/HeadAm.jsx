@@ -1,6 +1,5 @@
 import React from 'react' 
-import '../utils/css/HeadAmStyles.css'
-import Contacto from '../utils/images/contacto.png'
+import '../utils/css/HeadAmStyles.css' //Styles
 
 const HeadAM = () => {
     return (

@@ -1,3 +1,5 @@
+/*Body Styles for the about me page*/
+
 .allBodyAm{
     margin-top: 10%;
     display:flex
@@ -16,8 +18,6 @@
     margin-top: 5%;
     width: 100%;
 }
-
-
 .CButton{
     margin: 5% 5% 5% 5%;
     justify-content: center;
@@ -28,7 +28,6 @@
     width: 76%;
     justify-content: center;
 }
-
 .ButtonC{
     background: #58575D; 
     border-radius: 25px;
@@ -37,7 +36,6 @@
     height: 50px;
     color: #00C0B1;
 }
-
 .TitleProf{
     background: #BFC1C6;
     border-radius: 30px;
@@ -47,7 +45,7 @@
 }
 .TitleProf p{
     color: #00C0B1;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 .InfoProf{
@@ -62,32 +60,12 @@
     padding: 3%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Modals styles*/
 .Modals{
     display: flex;
     justify-content: space-around;
     margin: 5% 4%;
 }
-
-
-
 .modal-contenido{
     background: #FFFAFA;
     border: 5px double #58575D; 
@@ -95,7 +73,6 @@
     padding: 10px 20px;
     margin: 20% auto;
 }
-
 .modal{
     top:0;
     right:0;
@@ -135,7 +112,6 @@
     opacity:1;
     pointer-events:auto;
 }
-
 .Modals a{
     background: #00C0B1;
     color: #FFFAFA;
@@ -143,11 +119,76 @@
     border-radius: 10px;
     text-align: left;
 }
-
 .Foot{
  background: #00C0B1;
 }
-
 .modal-contenido p{
      color: #58575D;
+}
+
+
+
+/*Responsive Design*/
+@media only screen and (min-width:340px) and (max-width:626px){
+    .allBodyAm{
+        margin-top: 20%;
+    }
+    .rightColumn{
+        width: 46%;
+    }
+    .rightColumn img{
+        width: 150px;
+        height: 150px;
+    }
+    .leftColumn{
+        width: 80%;
+    }
+    .InfoProf p{
+        font-size: 15px;
+    }
+    .Modals{
+        flex-direction: column;
+    }
+    .modal-contenido{
+        padding: 20px 30px;
+        margin: 30% auto;
+    }
+    .modal-contenido h2{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width:627px) and (max-width:1024px){
+    .allBodyAm{
+        margin-top: 15%;
+    }
+    .rightColumn{
+        width: 46%;
+    }
+    .rightColumn img{
+        width: 150px;
+        height: 150px;
+    }
+    .leftColumn{
+        width: 80%;
+    }
+    .InfoProf p{
+        font-size: 19px;
+    }
+    .Modals{
+        flex-direction: column;
+    }
+    .modal-contenido{
+        padding: 20px 30px;
+        margin: 30% auto;
+    }
+    .modal-contenido h2{
+        font-size: 20px;
+    }
+}
+    @media only screen and (min-width:1025px) and (max-width:1200px){
+        .rightColumn img{
+            width: 180px;
+            height: 180px;
+        }
 }

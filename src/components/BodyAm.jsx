@@ -40,7 +40,6 @@ const BodyAm = () => {
                     <Link to="/Home">
                      <button className="Button">Formación académica</button>
                     </Link>
-
                 </div>
                 <div className="Profile">
                     <div className="TitleProf">
@@ -102,20 +101,9 @@ const BodyAm = () => {
                             </div>  
                         </div>  
                     </div>                        
-
-
-
-
                 </div>
             </div>
         </div>
-
-
-
-
-
-        
-
     )
 }
 
