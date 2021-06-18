@@ -49,8 +49,49 @@
     margin-top: 3%;
     align-items: center;
 }
+.modal-contenido10{
+    background: #FFFAFA;
+    border: 5px double #58575D; 
+}
+.modal10{
+    top:0;
+    right:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+    position: absolute;
+}
+#miModal10:target{
+    opacity:1;
+    pointer-events:auto;
+    text-align: center;
+}
 
+.all{
+    display: flex;
+}
+.sT{
+    margin-top: 25%;
+    background: hsl(175, 100%, 38%);
+    height: 110px;
+    width: 250px;
+}
+.sP img{
 
+    left: 3px;
+    bottom:1px;
+    width: 100;
+    border-radius: 1px;
+}
+.sT p{
+    color: aliceblue;
+    font-size: 30px;
+}
+.sT h4{
+    color: aliceblue;
+    text-align: left;
+    padding-left: 10%;
+}
 /*Responsive Design*/
 @media only screen and (min-width:340px) and (max-width:768px){
     .containerHeader{

@@ -2,7 +2,7 @@ import React from 'react' // import ALWAYS react //
 import {Link} from 'react-router-dom' //Declaration//
 import '../utils/css/headerMStyles.css' //Styles//
 import Logo from '../utils/images/logo.png'
-import Banner from '../utils/images/banner.jpg'
+import Banner from '../utils/images/banner.jpeg'
 
 const HeaderM = () => {
     return (
