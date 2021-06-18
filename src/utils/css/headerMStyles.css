@@ -9,52 +9,6 @@
   height: 470px;
 }
 
-
-/*Home button styles and animations*/
-
-#boton {
-  font-size: 15px;
-  background: #00C0B1;
-  color: #fff;
-  border: 0.25rem solid #00C0B1;
-  margin: 16px;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-  width: 200px;
-  height: 40px;
-  justify-content: center;
-}
-#boton:hover {
-  color: #00C0B1;
-}
-#boton::after {
-  content: "";
-  background: #fff;
-  position: absolute;
-  z-index: -1;
-  padding: 0.85em 0.75em;
-  display: block;
-}
-Button[class^="grow"]::after {
-  transition: all 0.3s ease;
-}
-Button[class^="grow"]:hover::after {
-  transition: all 0.3s ease-out;
-}
-Button.grow_spin::after {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  transform: scale(0, 0) rotate(-180deg);
-}
-Button.grow_spin:hover::after {
-  transform: scale(1, 1) rotate(0deg);
-}
-
-
-
 /*Responsive design*/
 
 @media only screen and (min-width:340px) and (max-width:768px){
@@ -64,31 +18,5 @@ Button.grow_spin:hover::after {
   }
   #boton {
     width: 190px;
-  }
-}
-
-
-@media only screen and (min-width:769px) and (max-width:1024px){
-  .containerHeader{
-      width: 80%;
-      height: 330px;
-  }
-  .Photo{
-      width: 220px;
-      height: 220px;
-  }
-  .Photo img{
-      width: 290px;
-      height: 300px;
-  }
-  .Icons{
-      width: 70px;
-  }
-  .Icons img{
-      width: 60px;
-      height: 70px;
-  }
-  .Users{
-      font-size: 25px;
   }
 }

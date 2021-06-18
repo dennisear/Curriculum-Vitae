@@ -130,7 +130,93 @@ h2{
   .third:hover {
     box-shadow: 0 0 10px 0 #58575D inset, 0 0 10px 4px #58575D;
   }
+  /*Home button styles and animations*/
+
+  #boton {
+    font-size: 15px;
+    background: #00C0B1;
+    color: #fff;
+    border: 0.25rem solid #00C0B1;
+    margin: 16px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    width: 200px;
+    height: 40px;
+    justify-content: center;
+  }
+  #boton:hover {
+    color: #00C0B1;
+  }
+  #boton::after {
+    content: "";
+    background: #fff;
+    position: absolute;
+    z-index: -1;
+    padding: 0.85em 0.75em;
+    display: block;
+  }
+  Button[class^="grow"]::after {
+    transition: all 0.3s ease;
+  }
+  Button[class^="grow"]:hover::after {
+    transition: all 0.3s ease-out;
+  }
+  Button.grow_spin::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: scale(0, 0) rotate(-180deg);
+  }
+  Button.grow_spin:hover::after {
+    transform: scale(1, 1) rotate(0deg);
+  }
+  
+  
+
+
+
+
+
+
+@media only screen and (min-width:340px) and (max-width:580px){
+
+    h1{
+        color: #FFFAFA;
+        font-size: 55px;
+        font-family: RobotoL;
+    }
+    
+    h2{
+        color: #58575D;
+        font-size: 55px;
+        Font-family: RobotoL;
+    }
+    
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+    h1{
+        color: #FFFAFA;
+        font-size: 55px;
+        font-family: RobotoL;
+    }
+    
+    h2{
+        color: #58575D;
+        font-size: 55px;
+        Font-family: RobotoL;
+    }
+
+}
+
+
+
+
+
+
 
 
 `;
+
 export default GlobalStyles;

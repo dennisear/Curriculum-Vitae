@@ -2,8 +2,7 @@ import React from 'react' // import ALWAYS react //
 import '../utils/css/headerStyles.css' // Styles //
 import Git from '../utils/images/git.png' // Github icon //
 import Linkedin from '../utils/images/linkedin.png' // Linkedin icon //
-import Profile from '../utils/images/profile.PNG' // My photo //
-import {Link} from 'react-router-dom' // React router declaration //
+import Photo from '../utils/images/profile.PNG' // My photo //
 
 const Header = () => {
     return (
@@ -22,17 +21,13 @@ const Header = () => {
                         <img src={Linkedin} alt="Icono Linkedin"></img> {/* Linkedin icon */}
                     </div>
                     <div className="Users">
-                        <Link to='https://github.com/dennisear/'>
-                        <button type="button" className="ButtonH"><h3>@dennisear</h3></button> {/* Button that redirects me to my github account */}
-                        </Link> 
-                        <Link to='https://www.linkedin.com/in/dennis-arango/'>
-                        <button type="button" className="ButtonH"><h3>@dennis-arango</h3></button> {/* Button that redirects me to my linkedin account */}
-                        </Link>  
+                        <a href='https://github.com/dennisear/'><button type="button" className="ButtonH"><h3>@dennisear</h3></button></a> {/* Button that redirects me to my github account */}
+                        <a href='https://www.linkedin.com/in/dennis-arango'><button type="button" className="ButtonH"><h3>@dennis-arango</h3></button></a> {/* Button that redirects me to my linkedin account */}
                     </div>
                 </div>
             </div>
             <div className="Photo">
-                <img src={Profile} alt="Foto"/>
+                <img src={Photo} alt="Foto"/>
             </div>
         </div>
     )

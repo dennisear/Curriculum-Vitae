@@ -5,7 +5,6 @@ import Logo from '../utils/images/logo.png'
 import {Link} from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome} from '@fortawesome/free-solid-svg-icons'
-
 const BodyAm = () => {
     return (
         <div className="allBodyAm">
@@ -18,23 +17,15 @@ const BodyAm = () => {
                     <h3>CONTACTO</h3>  
                 </div> 
                 <div className="SocialMedia">
-                    <Link to='https://github.com/dennisear/'>
-                      <button type="button" className="btn third">GitHub</button>
-                    </Link>
-                    <Link to='https://www.linkedin.com/in/dennis-yuliana-arango-sanchez-b00b8b214/'>
-                      <button type="button" className="btn third">Linkedin</button>
-                    </Link>
-                    <Link to='mailto:dennis.arango.mt@correo.usa.edu.co/'>
-                      <button type="button" className="btn third">Gmail</button>
-                    </Link> 
-                    <Link to='https://wa.me/3125059975?text=¡Hola!%20revise%20tu%20curriculum%20vitae%20y%20me%20interesa%20trabajar%20contigo/'>
-                      <button type="button" className="btn third">WhatsApp</button>
-                    </Link>   
+                    <a href="https://github.com/dennisear/"><button type="button" className="btn third">GitHub</button></a>
+                    <a href="https://www.linkedin.com/in/dennis-yuliana-arango-sanchez-b00b8b214/"><button type="button" className="btn third">Linkedin</button></a>
+                    <a href="mailto:dennis.arango.mt@correo.usa.edu.co"><button type="button" className="btn third">Gmail</button></a>
+                    <a href="https://wa.me/3125059975?text=¡Hola!%20revise%20tu%20curriculum%20vitae%20y%20me%20interesa%20trabajar%20contigo"><button type="button" className="btn third">WhatsApp</button></a>
                 </div>
             </div>
             <div className="leftColumn">
                 <div className="CButton">
-                    <Link to="/HeaderM">
+                    <Link to="/">
                         <a href className="Button"><FontAwesomeIcon icon={faHome}/></a>
                     </Link>                    
                     <Link to="/Home">
@@ -46,7 +37,7 @@ const BodyAm = () => {
                         <p><b>PERFIL</b></p>
                     </div>
                     <div className="InfoProf">
-                        <p>Con años de experiencia en la gestión de sistemas, he sido capaz de adaptarme a los diferentes planes informáticos de las empresas para las que he trabajado. Adicionalmente, cuento con una gran capacidad de análisis de la información y experiencia en la gestión de equiposCon años de experiencia en la gestión de sistemas, he sido capaz de adaptarme a los diferentes planes informáticos de las empresas para las que he trabajado. Adicionalmente, cuento con una gran capacidad de análisis de la información y experiencia en la gestión de equipos.</p>
+                        <p>Desarrolladora junior front-end. Me encargo de traducir diseños a lenguajes de programación, desarrollando la parte visual de la web y su estructura, facilitando a su vez la navegación del usuario, con alta disponibilidad para adquirir nuevos conocimientos. <br/> Aspiro a conseguir los resultados esperados en un 150%, al tiempo que creo que un clima laboral saludable, inspirador y entusiasta </p>
                     </div>
                     <div className="TitleProf">
                         <p><b>HABILIDADES</b></p>
@@ -65,7 +56,7 @@ const BodyAm = () => {
                             <div className="modal-contenido">
                                 <div className="Foot"><a href="#">X</a></div>
                                 <h2>COMUNICACIÓN ASERTIVA</h2>
-                                <p>Expreso en forma clara lo que pienso, siento o necesito, teniendo en cuenta los derechos, sentimientos, valores y necesidades del usuario o interlocutor. Cobrando de esta forma gran importancia el reconocimiento y el respeto hacia las de las demás personas.</p>
+                                <p>Expreso en forma clara lo que pienso, siento o necesito, teniendo en cuenta los derechos, sentimientos, valores y necesidades del usuario o interlocutor. Cobrando de esta forma gran importancia el reconocimiento y el respeto hacia las demás personas.</p>
                             </div>  
                         </div>  
                         <a href="#miModal3">Autodidactismo</a>
@@ -106,5 +97,4 @@ const BodyAm = () => {
         </div>
     )
 }
-
 export default BodyAm

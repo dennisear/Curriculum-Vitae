@@ -12,14 +12,9 @@ const HeaderM = () => {
             </div>
             <div className="Menu"> 
                 <Link to='/Home'>
-                    <button type="button" id="boton" className="grow_spin">Formación académica</button> {/* Button that takes me to the page 'formación académica' */}
+                    <button type="button" id="boton" className="grow_spin">Curriculum Vitae</button> {/* Button that takes me to the page 'formación académica' */}
                 </Link>
-                <Link to='AboutMe/'>
-                    <button type="button" id="boton" className="grow_spin">Sobre mí</button> {/* Button that takes me to the page about me */}
-                </Link>
-                <Link to='BodyM/'>
-                    <button type="button" id="boton" className="grow_spin">Conoce mi trabajo</button> {/* Button that takes me to the component body*/}
-               </Link>
+                <a href="#Repository"><button type="button" id="boton" className="grow_spin">Conoce mi trabajo</button></a> {/* Button that takes me to the component body*/}
             </div>
             <div className="Banner">
                <img src={Banner} alt="Banner"></img>

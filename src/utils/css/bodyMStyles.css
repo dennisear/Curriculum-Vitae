@@ -1,3 +1,4 @@
+/*Animation and operation of the slider*/
 .containerSlider{
     margin: auto;
     background-color: white;
@@ -13,7 +14,7 @@
   
   ul.slider{
     position: relative;
-    width: 800px;
+    width: 100%;
     height: 300px;
   }
   
@@ -35,13 +36,14 @@
   }
   
   ul.slider li:first-child {
-      opacity: 1; /*Mostramos el primer <li>*/
+      opacity: 1; /*Show the first <li>*/
   }
   
   ul.slider li:target {
-      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+      opacity: 1; /*show the <li> of the link that we click */
   }
   
+  /*lower menu*/
   .menu{
     text-align: center;
     margin: 20px;
@@ -63,3 +65,8 @@
     font-size: 20px;
     border-radius: 100%;
   }
+
+#slide1, #slide2, #slide3{
+  display: flex;
+
+}

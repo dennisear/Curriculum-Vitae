@@ -96,7 +96,7 @@ const Body = () => {
                 </div>
             </div>
             <div className="SecondColumn">
-                <Link to="/HeaderM">
+                <Link to="/">
                   <a href className="Button"><FontAwesomeIcon icon={faHome}/></a> {/*button that directs me to home*/}
                 </Link>  
                 <Link to="/AboutMe">
