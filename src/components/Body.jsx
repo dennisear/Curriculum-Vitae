@@ -96,17 +96,23 @@ const Body = () => {
                 </div>
             </div>
             <div className="SecondColumn">
-                <Link to="/">
-                  <a href className="Button"><FontAwesomeIcon icon={faHome}/></a> {/*button that directs me to home*/}
-                </Link>  
-                <Link to="/AboutMe">
-                  <button type="button" className="Button">Sobre mí</button> {/*button that directs me to page about me*/}
-                </Link>
+                <div className="Buttonss">
+                    <Link to="/">
+                        <a href className="Button" id="Resp"><FontAwesomeIcon icon={faHome}/></a> {/*button that directs me to home*/}
+                    </Link>  
+                    <Link to="/AboutMe">
+                      <button type="button" className="Button">Sobre mí</button> {/*button that directs me to page about me*/}
+                    </Link>
+
+                </div>
+                
                 <div className="Title">
-                    <div className="IconT">
-                        <img src={Software} alt="Icono manejo de herramientas"></img>                   
+                    <div className="Responsive">
+                        <div className="IconT">
+                            <img src={Software} alt="Icono manejo de herramientas"></img>                   
+                        </div>
+                        <h3>MANEJO DE HERRAMIENTAS</h3>  
                     </div>
-                      <h3>MANEJO DE HERRAMIENTAS</h3>  
                 </div> 
                 <div className="Tools">
                     <div className="Line"> <hr/> </div>            

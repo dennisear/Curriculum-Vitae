@@ -1,9 +1,13 @@
 /*Animation and operation of the slider*/
 .containerSlider{
-    margin: auto;
+    margin: 2px 2px 2px 10%;
     background-color: white;
-    width: 800px;
-    padding: 30px;
+    width: 70%;
+}
+
+.allSlider{
+  display: flex;
+  justify-content: space-evenly;
 }
   
   ul, li {
@@ -20,7 +24,6 @@
   
   ul.slider li {
       position: absolute;
-      left: 0px;
       top: 0px;
       opacity: 0;
       width: inherit;
@@ -44,29 +47,27 @@
   }
   
   /*lower menu*/
-  .menu{
-    text-align: center;
-    margin: 20px;
-  }
-  
   .menu li{
-    display: inline-block;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
+    padding: 20% 2% 20% 2%;
   }
   
   .menu li a{
+
     display: inline-block;
-    color: white;
+    color: hsl(175, 100%, 38%);
     text-decoration: none;
-    background-color: grey;
-    padding: 10px;
-    width: 20px;
-    height: 20px;
-    font-size: 20px;
-    border-radius: 100%;
+    background-color: #58575D;
+    width: 150px;
+    height: 35px;
+    font-size: 16px;
+    padding: 2%;
   }
 
 #slide1, #slide2, #slide3{
   display: flex;
+  padding: 2%;
 
 }

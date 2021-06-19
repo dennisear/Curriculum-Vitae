@@ -77,12 +77,14 @@ h2{
     font-size: 20px;
     padding: 2%;
     color: #00C0B1;
+    margin-top: 3%;
 }
 
 .ButtonH{
-    width: 65%;
+    margin: 3.5% auto 3.5%;
+    padding: 1%;
+    width: auto;
     height: 50px;
-    margin-bottom: 3%;
     color: #58575D;
     background: hsl(175, 100%, 38%);
     border-radius: 25px;
@@ -175,46 +177,78 @@ h2{
   
   
 
+@media only screen and (min-width:340px) and (max-width:730px){
 
-
-
-
-
-@media only screen and (min-width:340px) and (max-width:580px){
-
+  .titleHeader{
+    padding-top: 5%;
+    padding-bottom: 2%;
+  }
     h1{
-        color: #FFFAFA;
-        font-size: 55px;
-        font-family: RobotoL;
-    }
-    
-    h2{
-        color: #58575D;
-        font-size: 55px;
-        Font-family: RobotoL;
-    }
-    
+    font-size: 20px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  .subtitleHeader{
+      font-size: 16px;
+  }
+  .IconT{
+    padding: 2%;
+  }
+  .IconT img{
+    width: 25px;
+    height: 20px;
+  }
+  .Button{
+    width: 280px;
+    font-size: 18px;
+    padding: 2%;
+  }
+  .Buttonss{
+    margin-top: 20%;
+    display:flex;
+    padding: 5%;
+  }
+  .Responsive{
+    width:80%;
+    display:flex;
+    padding-left: 170%;
+    font-size: 12px;
+  }
 }
-@media only screen and (min-width:769px) and (max-width:1024px){
+
+@media only screen and (min-width:731px) and (max-width:1024px){
+
+  .titleHeader{
+    padding-top: 6%;
+    padding-bottom: 2%;
+  }
     h1{
-        color: #FFFAFA;
-        font-size: 55px;
-        font-family: RobotoL;
-    }
-    
-    h2{
-        color: #58575D;
-        font-size: 55px;
-        Font-family: RobotoL;
-    }
+    font-size: 35px;
+  }
+  h2{
+    font-size: 35px;
+  }
+  .subtitleHeader{
+    font-size: 27px;
+  }
+  .Button{
+    width: 280px;
+    font-size: 20px;
+    padding: 2%;
+  }
+  .Buttonss{
+    margin-top: 20%;
+    display:flex;
+  }
+  .Responsive{
+    width:80%;
+    display:flex;
+    padding-left: 120%;
+    font-size: 15px;
+  }
 
 }
-
-
-
-
-
-
 
 
 `;
